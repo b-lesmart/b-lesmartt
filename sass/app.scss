@@ -1,0 +1,37 @@
+/*
+* !----------------------------------------------------------
+* LEVIDIO PERSONAL BRANDING - CV 2
+* Mar, 5 2018
+* Huda - RootPixel
+* !----------------------------------------------------------
+*/
+
+// License Info
+License {
+	product 		: "Levidio Personal Branding";
+	template-name 	: "CV 2";
+	product-link 	: "http://rootpixel.co.id/levidio/personalbranding";
+	author 			: "Rootpixel";
+	website 		: "http://rootpixel.net";
+	contact 		: "support@rootpixel.net";
+	social 			: "http://facebook.com/rootpixel";
+}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// Theme Setting
+@import "variables";
+
+// Variables
+@import "mixins";
+@import "parents";
+
+// Core Settings
+@import "base";
+@import "typography";
+@import "elements";
+@import "components";
+@import "responsive";
